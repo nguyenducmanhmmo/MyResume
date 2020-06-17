@@ -6,298 +6,141 @@
     <title>Nguyen Duc Manh Resume</title>
     <link rel="stylesheet" href="css/style.css" />
     <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   </head>
-
   <body>
-    <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
-    <div class="outer">
-      <header class="site-header">
-        <div class="wrapper">
-          <a class="site-title" href="#">Nguyen Duc Manh Resume</a>
-          <div class="container noPrint">
-            <a href="#about" class="btn btn-danger">About</a>
-            <a href="#exp" class="btn btn-danger">Experience</a>
-            <a href="#edu" class="btn btn-danger">Education</a>
-            <a href="#skills" class="btn btn-danger">Skills</a>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Nguyen Duc Manh</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li id="nav-about"><a href="#about">About</a></li>
+            <li id="nav-portfolio"><a href="#portfolio">Portfolio</a></li>
+            <li id="nav-contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Begin page content -->
+    <div class="container-fluid">
+      
+      <div class="row cover top">
+        <div class="col-xs-12">
+          <div class="row">
+            <div class="col-xs-12 headline">
+              <h1 class="text-center">Hi, I'm Manh</h1>
+              <p class="lead text-center">A Full Stack Web Developer</p>
+            </div>
           </div>
-        </div>
-
-        <div class="header-badge">
-          <a data-toggle="modal" data-target="#shareModal">
-            <img
-              height="100%"
-              width="100"
-              src="https://clarkhacks.com/a/img/resume/head.png"
-            />
-          </a>
-        </div>
-      </header>
-
-      <div class="page-content">
-        <div class="wrapper">
-          <div class="home">
-            <div class="top card">
-              <a class="email">A Full Stack Developer Wannabe</a>
-              <p class="description">
-                Experienced web developer. A person not afraid of challenge and new. I am a self-motivated and self-taught professtional who 
-                love improving to become better version of myself.
-              </p>
-              <a
-                href="mailto:ngueynducmanhmmo@gmail.com"
-                style="
-                  display: block;
-                  width: 45%;
-                  max-width: 250px;
-                  margin-left: auto;
-                  margin-right: auto;
-                "
-                class="btn btn-res"
-                >Email Me or Call +84969955708</a
-              >
-            </div>
-            <a id="about"></a>
-            <div class="posts card">
-              <div class="card-content white-text">
-                <span class="card-title"
-                  >What I have to say about myself...</span
-                >
-
-                <ul class="post-list">
-                  <div>
-                    <p class="say-body">
-                      I have been working with web development since 2018, the period during which I have worked in different technical stack. In love with languages, i am confident and relaxed with english and trying to conquer japanese. 
-                      My passion is become knowledge person who could build solution and implement reliable, scalable, maintainable Applications . My repertoire includes programming languages and tools to build such as clientside, server side, webserver and more.
-                    </p>
-                  </div>
-                </ul>
-              </div>
-            </div>
-            <a id="exp"></a>
-            <a id="edu"></a>
-            <div class="posts card">
-              <div class="card-content white-text">
-                <span class="card-title">Experience</span>
-
-                <ul class="post-list">
-                  <li>
-                    <a href="#">SCHOOL</a>
-                    <div>
-                      <p><small>Bachelor Degree</small></p>
-                      I graduated with honors with good grade on one of the top university Posts and Telecommunications Institute of Technology.
-                    </div>
-                  </li>
-                  <li>
-                    <a href="#">SCHOOL</a>
-                    <div>
-                      <p><small>Fresher Acacdemy</small></p>
-                      Learning web development skill in 3 months and earning first prize of English Presentation Contest are one of the accomplishments I am proud of.
-                    </div>
-                  </li>
-                  <li>
-                    <a href=""
-                      >WORKING EXPERIENCE</a
-                    >
-                    <div>
-                      <p><small>November 2010 - May 2011</small></p>
-                      My first professional working is developing a webapp using DotNetCore, Angular, Azure Cloud and PowerBI. This website is desgined to 
-                      use Microsoft Business Analytics Solution that connects big amounts of Boieng Data and provides visualizations reports with interactive insights.
-                    </div>
-                  </li>
-                  <a id="skills"></a>
-                  <!-- Placed here for propper alignment -->
-                  <li>
-                    <a href=""
-                      >WORKING EXPERIENCE</a
-                    >
-                    <div>
-                      <p>
-                        <small
-                          >
-                          <br />May 2011 - November 2011
-                        </small>
-                      </p>
-                      Developing a Webapp For a international pharmacal company to slove responsiable for logistics fee of branch company. Technical stack for this 
-                      app consists of DotNetCore, Angular, Azure Funtion, FileZilla.
-                    </div>
-                  </li>
-                  <!-- Placed here for propper alignment -->
-                  <li>
-                    <a href=""
-                      >WORKING EXPERIENCE</a
-                    >
-                    <div>
-                      <p>
-                        <small
-                          >
-                          <br />November 2011 - May 2020
-                        </small>
-                      </p>
-                      First time developing With Java Spring Boot is one time that I found challenge, interesting and break my limit. This webapp use Java Spring,Angular, AWS to 
-                      build an automated testing and genenarating report for the orther services of a big healthcare company.
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div class="posts card">
-              <div class="card-content white-text">
-                <span class="card-title">Skills</span>
-
-                <ul class="post-list noPrint">
-                  <li>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-success"
-                        role="progressbar"
-                        aria-valuenow="99"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 99%;"
-                      >
-                        DotNet
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-success"
-                        role="progressbar"
-                        aria-valuenow="98"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 98%;"
-                      >
-                        Java Spring boot
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-success"
-                        role="progressbar"
-                        aria-valuenow="97"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 97%;"
-                      >
-                        Nodejs
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-success"
-                        role="progressbar"
-                        aria-valuenow="93"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 93%;"
-                      >
-                        Angular
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-success"
-                        role="progressbar"
-                        aria-valuenow="90"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 90%;"
-                      >
-                        ReactJS
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-success"
-                        role="progressbar"
-                        aria-valuenow="89"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 89%;"
-                      >
-                        DevOps
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="progress">
-                      <div
-                        class="progress-bar progress-bar-info"
-                        role="progressbar"
-                        aria-valuenow="87"
-                        aria-valuemin="0"
-                        aria-valuemax="100"
-                        style="width: 87%;"
-                      >
-                        Cloud
-                      </div>
-                    </div>
-                  </li>
-              </div>
+          <div class="row">
+            <div class="col-xs-12 center-block text-center">
+              <a href="#about"><span id="scrollIcon" class="front-glyph glyphicon glyphicon-menu-down" aria-hidden="true"></span></a>
             </div>
           </div>
         </div>
       </div>
-
-      <footer class="site-footer">
-        <div class="wrapper">
-          <span class="footer-heading">NGUYEN DUC MANH | nguyenducmanhmmo@gmail.com</span>
-        </div>
-      </footer>
-    </div>
-    <div
-      class="modal fade"
-      id="shareModal"
-      tabindex="-1"
-      role="dialog"
-      aria-labelledby="myModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <div id="social">
-              <a
-                class="facebookBtn smGlobalBtn"
-                href="https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc"
-              ></a>
-              <a
-                class="twitterBtn smGlobalBtn"
-                href="https://twitter.com/intent/tweet/?text=Share&amp;url=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc"
-              ></a>
-              <a
-                class="googleplusBtn smGlobalBtn"
-                href="https://plus.google.com/share?url=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc"
-              ></a>
-              <a
-                class="pinterestBtn smGlobalBtn"
-                href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc&amp;media=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc&amp;summary=Share"
-              ></a>
-              <a
-                class="tumblrBtn smGlobalBtn"
-                href="https://www.tumblr.com/widgets/share/tool?posttype=link&amp;title=Share&amp;caption=Share&amp;content=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc&amp;canonicalUrl=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc&amp;shareSource=tumblr_share_button"
-              ></a>
-              <a
-                class="emailBtn smGlobalBtn"
-                href="mailto:?subject=Share&amp;body=https%3A%2F%2Fclarkhacks.github.io%2Fresume%2Fdoc"
-              ></a>
-            </div>
+      
+      
+      <div id="about" class="row cover">
+        <h2 class="text-center">About Me</h2>
+        <div class="row">
+          <div class="col-md-6 text-center about-info">
+            <img class="img-circle text-center profile-img" src="./img/nguyen-duc-manh-resume.JPG">
+            <p class="text-center">
+              I have been working with web development since 2018, 
+              the period during which I have worked in different technical stack. 
+              In love with languages, i am confident and relaxed with english and trying to conquer japanese. 
+              My repertoire includes programming and desiring build reliable, scalable, maintainable and well-known applications .
+                </p>
           </div>
+          <div class="col-md-6 about-tools">
+            <p class="text-center">Here's Technical Stack I love</p>
+              <div class="col-xs-6">
+                <ul>
+                  <li>DotNet C#</li>
+                  <li>Angular</li>
+                  <li>ReactJS</li>
+                  <li>Java Spring</li>
+                  <li>Javascript</li>
+                </ul>
+              </div>
+              <div class="col-xs-6">
+                <ul>
+                  <li>Devops Skill</li>
+                  <li>Azure Cloud</li>
+                  <li>Git</li>
+                  <li>AWS</li>
+                  <li>SQL</li>
+                </ul>
+              </div>
+            
+          </div>
+          <!-- <div class="row break">
+            <div class="col-md-6 about-last">
+              <p class="text-center">Check out my latest projects <span class="glyphicon glyphicon-arrow-down"></span></p>
+            </div>
+          </div> -->
+        </div> 
+      </div><!-- End #About -->
+
+      <div id="portfolio" class="row cover">
+        <h2 class="text-center">Portfolio</h2>
+        <div class="container">
+          <div class="row portfolio-projects"> <!-- Two project row-->
+            <div class="col-lg-6"> <!--1st side project -->
+              <div class="row"> 
+                <div class="col-sm-5 text-center">
+                  <h4 class="portfolio-projects--title">Mmo Shop</h4>
+                  <p class="portfolio-projects--desc">Online Fashion Shopping Web App </p>
+                  <p class="portfolio-projects--desc">Uses: Javascript, React, Redux</p>
+                  <a class="btn btn-rounded portfolio-projects--btn" href="https://mmo-live.herokuapp.com/" role="button">View Project</a>
+                </div>
+                <div class="col-sm-7 text-center">
+                  <img class="portfolio-projects--image" src="./img/mmo-shop.png">
+                </div>
+              </div>
+            </div>
+          </div><!--end Two project row-->
         </div>
-      </div>
+        </div>
+      </div><!-- End #Portfolio -->
+
+      <div id="contact" class="row cover bottom">
+        <h2 class="text-center contact-header">Contact Me</h2>
+        <p class="text-center contact-email">Get in touch with me <span class="glyphicon glyphicon-arrow-right"></span> nguyenducmanhmmo@gmail.com</p>
+        <div class="text-center contact-social-icons">
+          <p>Or find me on:</p>
+          <ul class="centered">
+            <a href="https://github.com/nguyenducmanhmmo"><li><i class="fa fa-github"></i> Github</li></a>
+            <a href="mailto: nguyenducmanhmmo@gmail.com"><li><i class="fa fa-envelope"></i> Send Mail</li></a>
+            <a ><li><i class="fa fa-phone"></i> Call 0969.955.708</li></a>
+          </ul>
+        </p>
+        
+      </div><!-- End #Contact -->
+
     </div>
+
+    <footer class="footer">
+      <div class="container">
+      </div>
+    </footer>
+
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </html>
